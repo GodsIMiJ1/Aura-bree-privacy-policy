@@ -85,8 +85,26 @@ Clear, accessible Privacy Policy available.
 [ ] iOS release
 
 
+All Rights Reserved
+
+Copyright (c) 2025 GodsIMiJ AI Solutions
+
+Permission is NOT granted to copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software or its assets, in whole or in part, without explicit written permission from the copyright holder.
+
+For licensing inquiries: james@godsimij-ai-solutions.com
+
+# Contributions Closed
+
+This project does not accept external contributions, pull requests, or issues.
+Any unsolicited contributions will be closed without review.
 
 
+AURA-BREE © 2025 GodsIMiJ AI Solutions. All Rights Reserved.
+Unauthorized reproduction or distribution is strictly prohibited.
+
+> NOTICE: This repository is private intellectual property of GodsIMiJ AI Solutions.
+> No external collaboration or redistribution is permitted. All Rights Reserved.
+> 
 ---
 
 📧 Contact
