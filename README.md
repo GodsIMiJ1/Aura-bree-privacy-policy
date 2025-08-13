@@ -31,21 +31,6 @@ Wellness Insights – View trends and learn positive coping strategies.
 
 AURA-BREE is currently in testing and will be released on the Google Play Store soon.
 
-To run locally during development:
-
-1. Clone this repository.
-
-
-
-git clone https://github.com/your-username/aura-bree.git
-
-2. Open the project in Android Studio.
-
-
-3. Build and run on an Android device or emulator.
-
-
-
 
 ---
 
