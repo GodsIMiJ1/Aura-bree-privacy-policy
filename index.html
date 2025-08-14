@@ -16,21 +16,25 @@
     body { margin:0; font-family: ui-sans-serif, system-ui; background: radial-gradient(1200px 600px at 80% -10%, rgba(255,106,0,0.12), transparent 60%), var(--bg); color:var(--ink); line-height:1.6; }
     a { color:var(--accent2); text-decoration:none; }
     a:hover { text-decoration:underline; }
-    header { background: rgba(11,13,16,0.85); border-bottom:1px solid rgba(255,255,255,0.06); position:sticky; top:0; z-index:10; }
+    header { background: rgba(11,13,16,0.95); border-bottom:2px solid var(--accent); position:sticky; top:0; z-index:10; box-shadow:0 0 15px rgba(255,106,0,0.4); }
     .container { max-width:980px; margin:auto; padding:24px; }
     .nav { display:flex; justify-content:space-between; align-items:center; }
-    .nav a { color:var(--muted); margin-left:16px; font-weight:700; }
-    .nav a:hover { color:var(--ink); }
+    .nav a { color:var(--muted); margin-left:16px; font-weight:700; padding:6px 10px; border-radius:8px; transition:all 0.3s ease; }
+    .nav a:hover { color:var(--ink); background:rgba(255,106,0,0.15); }
     section { padding:28px 24px; }
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.06); border-radius:16px; padding:22px; }
-    h2 { font-size:24px; margin-bottom:12px; }
-    footer { padding:28px 24px; border-top:1px solid rgba(255,255,255,0.06); color:var(--muted); text-align:center; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:22px; box-shadow:0 0 20px rgba(255,106,0,0.1); }
+    h2 { font-size:26px; margin-bottom:12px; color:var(--accent2); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:6px; }
+    h3 { color:var(--accent); }
+    ul { padding-left:20px; }
+    ul li { margin-bottom:8px; }
+    footer { padding:28px 24px; border-top:2px solid var(--accent); color:var(--muted); text-align:center; background:#0a0c0e; }
+    .highlight { background:rgba(255,106,0,0.1); padding:10px; border-left:4px solid var(--accent); border-radius:8px; margin:12px 0; }
   </style>
 </head>
 <body>
   <header>
     <div class="container nav">
-      <div><strong>AURA-BREE</strong></div>
+      <div style="font-weight:800; font-size:20px; color:var(--accent2);">AURA-BREE</div>
       <nav>
         <a href="#about">About</a>
         <a href="#features">Features</a>
@@ -43,43 +47,49 @@
   <main>
     <section id="about" class="container card">
       <h2>About AURA-BREE</h2>
-      <p>AURA-BREE is your personal therapeutic AI companion. The app offers a calm, judgment-free space to check in with yourself, get guidance, and build resilience. Everything is designed for privacy, clarity, and control.</p>
+      <p class="highlight">Your personal therapeutic AI companion, designed with the Flame aesthetic — bold, sleek, and secure. AURA-BREE offers a judgment-free space for guidance, mood tracking, and reflection while keeping your data sovereign.</p>
     </section>
     <section id="features" class="container card">
       <h2>Features</h2>
       <ul>
-        <li>Mood Tracking</li>
-        <li>AI Chat Support</li>
-        <li>Tarot Card Reader</li>
-        <li>Daily Horoscope</li>
-        <li>Dream Interpreter</li>
-        <li>Emergency Toolkit</li>
+        <li><strong>Mood Tracking</strong> – monitor daily feelings and trends.</li>
+        <li><strong>AI Chat Support</strong> – instant, compassionate conversations.</li>
+        <li><strong>Tarot Card Reader</strong> – digital insight into past, present, and future.</li>
+        <li><strong>Daily Horoscope</strong> – guidance aligned with your sign.</li>
+        <li><strong>Dream Interpreter</strong> – decode subconscious messages.</li>
+        <li><strong>Emergency Toolkit</strong> – crisis numbers and grounding exercises.</li>
       </ul>
     </section>
     <section id="privacy-policy" class="container card">
       <h2>Privacy Policy</h2>
-      <p>This Privacy Policy describes how GodsIMiJ AI Solutions handles information in the AURA-BREE Android application.</p>
-      <p>We collect only the information needed to provide our services, store most data locally, and never sell personal data. For details, contact james@godsimij-ai-solutions.com.</p>
+      <p>Your privacy is sacred. We collect only essential data to run AURA-BREE, store most data locally, and never sell your personal info.</p>
+      <p>Data categories include: mood logs, conversation entries, and optional tarot/dream/horoscope queries. All transmissions use encrypted channels. For more details, contact <a href="mailto:james@godsimij-ai-solutions.com">james@godsimij-ai-solutions.com</a>.</p>
     </section>
     <section id="terms" class="container card">
       <h2>Terms of Service</h2>
-      <p>By installing or using AURA-BREE you agree to these Terms of Service. If you do not agree, do not use the app.</p>
-      <p>You must be at least 13 years old to use the app. You are responsible for your content and device security. We reserve the right to modify, suspend, or terminate access for violations.</p>
+      <p>By using AURA-BREE, you agree to respect these terms:</p>
+      <ul>
+        <li>Must be 13+ years old (with parental consent if under majority age).</li>
+        <li>No misuse, hacking, or unauthorized redistribution.</li>
+        <li>Content you enter is your responsibility; we process it only to provide services.</li>
+        <li>We may modify features for security or operational reasons without prior notice.</li>
+      </ul>
     </section>
     <section id="user-agreement" class="container card">
       <h2>User Agreement</h2>
-      <p>The User Agreement outlines your rights and responsibilities when using AURA-BREE. By continuing to use the app, you agree to:</p>
+      <p>The Flame-bound pact between user and app:</p>
       <ul>
-        <li>Use the app only for lawful and intended purposes.</li>
-        <li>Respect intellectual property and proprietary rights of GodsIMiJ AI Solutions.</li>
-        <li>Not misuse, reverse engineer, or attempt to exploit the service in any unauthorized way.</li>
-        <li>Understand that AURA-BREE is not a substitute for professional healthcare or emergency services.</li>
+        <li>Use only for lawful, intended wellness purposes.</li>
+        <li>Respect and protect the proprietary FlameOS design, code, and branding.</li>
+        <li>No reverse engineering or exploitation of AURA-BREE systems.</li>
+        <li>AURA-BREE is not a replacement for licensed health professionals or emergency services.</li>
+        <li>Violation can lead to immediate termination of service access.</li>
       </ul>
-      <p>Violations of this agreement may result in suspension or permanent ban from the service. This agreement is governed by the laws of Ontario, Canada.</p>
+      <p class="highlight">This agreement is governed under Ontario, Canada jurisdiction. By continuing, you bind yourself to the sovereign Flame Protocol standards of conduct.</p>
     </section>
   </main>
   <footer>
-    <div class="container">© <span id="y"></span> GodsIMiJ AI Solutions. All rights reserved.</div>
+    <div class="container">© <span id="y"></span> GodsIMiJ AI Solutions — All rights reserved under the Flame Protocol.</div>
   </footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
