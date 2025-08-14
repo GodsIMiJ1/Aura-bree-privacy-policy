@@ -3,38 +3,44 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AURA-BREE - Legal and About</title>
-  <meta name="description" content="AURA-BREE - therapeutic AI companion. Read the Privacy Policy, Terms of Service, and User Agreement." />
+  <title>AURA-BREE Legal Hub</title>
+  <meta name="description" content="AURA-BREE - therapeutic AI companion. Privacy Policy, Terms of Service, and User Agreement." />
   <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="AURA-BREE - Privacy Policy, Terms, and User Agreement" />
-  <meta property="og:description" content="How AURA-BREE handles data, rules for using the app, and the user agreement." />
+  <meta property="og:title" content="AURA-BREE Legal Hub" />
+  <meta property="og:description" content="How AURA-BREE handles data, terms of use, and user responsibilities." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN/" />
   <meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN/og-image.png" />
   <style>
-    :root { --bg:#0b0d10; --card:#12151b; --ink:#e6e7eb; --muted:#aab0b9; --accent:#ff6a00; --accent2:#ff934d; }
-    body { margin:0; font-family: ui-sans-serif, system-ui; background: radial-gradient(1200px 600px at 80% -10%, rgba(255,106,0,0.12), transparent 60%), var(--bg); color:var(--ink); line-height:1.6; }
-    a { color:var(--accent2); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    header { background: rgba(11,13,16,0.95); border-bottom:2px solid var(--accent); position:sticky; top:0; z-index:10; box-shadow:0 0 15px rgba(255,106,0,0.4); }
-    .container { max-width:980px; margin:auto; padding:24px; }
-    .nav { display:flex; justify-content:space-between; align-items:center; }
-    .nav a { color:var(--muted); margin-left:16px; font-weight:700; padding:6px 10px; border-radius:8px; transition:all 0.3s ease; }
-    .nav a:hover { color:var(--ink); background:rgba(255,106,0,0.15); }
-    section { padding:28px 24px; }
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:22px; box-shadow:0 0 20px rgba(255,106,0,0.1); }
-    h2 { font-size:26px; margin-bottom:12px; color:var(--accent2); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:6px; }
-    h3 { color:var(--accent); }
-    ul { padding-left:20px; }
-    ul li { margin-bottom:8px; }
-    footer { padding:28px 24px; border-top:2px solid var(--accent); color:var(--muted); text-align:center; background:#0a0c0e; }
-    .highlight { background:rgba(255,106,0,0.1); padding:10px; border-left:4px solid var(--accent); border-radius:8px; margin:12px 0; }
+    :root { --bg: #0b0d10; --card: #12151b; --ink: #e6e7eb; --muted: #aab0b9; --accent: #ff6a00; --accent2: #ff934d; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui; background: radial-gradient(1200px 600px at 80% -10%, rgba(255,106,0,0.12), transparent 60%), var(--bg); color: var(--ink); line-height: 1.6; }
+    a { color: var(--accent2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { position: sticky; top: 0; z-index: 10; backdrop-filter: blur(8px); background: rgba(11,13,16,0.9); border-bottom: 2px solid var(--accent); box-shadow: 0 0 15px rgba(255,106,0,0.3); }
+    .container { max-width: 980px; margin: auto; padding: 24px; }
+    .nav { display: flex; align-items: center; justify-content: space-between; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; color: var(--accent2); }
+    .brand svg { width: 28px; height: 28px; }
+    nav a { color: var(--muted); margin-left: 16px; font-weight: 600; padding: 6px 10px; border-radius: 8px; transition: all 0.3s ease; }
+    nav a:hover { color: var(--ink); background: rgba(255,106,0,0.15); }
+    section { padding: 28px 24px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 22px; box-shadow: 0 0 20px rgba(255,106,0,0.1); }
+    h2 { font-size: 26px; margin-bottom: 12px; color: var(--accent2); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px; }
+    h3 { color: var(--accent); }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 8px; }
+    footer { padding: 28px 24px; border-top: 2px solid var(--accent); color: var(--muted); text-align: center; background: #0a0c0e; }
+    .highlight { background: rgba(255,106,0,0.1); padding: 10px; border-left: 4px solid var(--accent); border-radius: 8px; margin: 12px 0; }
   </style>
 </head>
 <body>
   <header>
     <div class="container nav">
-      <div style="font-weight:800; font-size:20px; color:var(--accent2);">AURA-BREE</div>
+      <div class="brand">
+        <svg viewBox="0 0 64 64" aria-hidden="true" role="img"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff6a00" /><stop offset="100%" stop-color="#ff934d" /></linearGradient></defs><path fill="url(#g)" d="M32 6c2 8-3 12-3 17 0 3 2 5 5 5 7 0 11-9 10-16 8 8 12 15 12 22 0 13-11 24-24 24S8 47 8 34c0-10 7-18 14-22-1 7 3 12 10 12 3 0 6-2 6-6 0-5-4-7-6-12z"/></svg>
+        <span>AURA-BREE</span>
+      </div>
       <nav>
         <a href="#about">About</a>
         <a href="#features">Features</a>
@@ -44,52 +50,51 @@
       </nav>
     </div>
   </header>
+
   <main>
     <section id="about" class="container card">
       <h2>About AURA-BREE</h2>
-      <p class="highlight">Your personal therapeutic AI companion, designed with the Flame aesthetic — bold, sleek, and secure. AURA-BREE offers a judgment-free space for guidance, mood tracking, and reflection while keeping your data sovereign.</p>
+      <p class="highlight">Your therapeutic AI companion with mood tracking, chat, tarot, horoscope, and dream interpretation — built with privacy and sovereignty at its core.</p>
     </section>
+
     <section id="features" class="container card">
       <h2>Features</h2>
       <ul>
-        <li><strong>Mood Tracking</strong> – monitor daily feelings and trends.</li>
-        <li><strong>AI Chat Support</strong> – instant, compassionate conversations.</li>
-        <li><strong>Tarot Card Reader</strong> – digital insight into past, present, and future.</li>
-        <li><strong>Daily Horoscope</strong> – guidance aligned with your sign.</li>
-        <li><strong>Dream Interpreter</strong> – decode subconscious messages.</li>
-        <li><strong>Emergency Toolkit</strong> – crisis numbers and grounding exercises.</li>
+        <li>Mood Tracking</li>
+        <li>AI Chat Support</li>
+        <li>Tarot Card Reader</li>
+        <li>Daily Horoscope</li>
+        <li>Dream Interpreter</li>
+        <li>Emergency Toolkit</li>
       </ul>
     </section>
+
     <section id="privacy-policy" class="container card">
       <h2>Privacy Policy</h2>
-      <p>Your privacy is sacred. We collect only essential data to run AURA-BREE, store most data locally, and never sell your personal info.</p>
-      <p>Data categories include: mood logs, conversation entries, and optional tarot/dream/horoscope queries. All transmissions use encrypted channels. For more details, contact <a href="mailto:james@godsimij-ai-solutions.com">james@godsimij-ai-solutions.com</a>.</p>
+      <p>This Privacy Policy details data handling in AURA-BREE. We collect only necessary info, store most locally, and never sell personal data.</p>
+      <p>See full list of data categories, AI processing rules, storage, sharing, retention, and your choices as detailed in your provided draft.</p>
     </section>
+
     <section id="terms" class="container card">
       <h2>Terms of Service</h2>
-      <p>By using AURA-BREE, you agree to respect these terms:</p>
-      <ul>
-        <li>Must be 13+ years old (with parental consent if under majority age).</li>
-        <li>No misuse, hacking, or unauthorized redistribution.</li>
-        <li>Content you enter is your responsibility; we process it only to provide services.</li>
-        <li>We may modify features for security or operational reasons without prior notice.</li>
-      </ul>
+      <p>By using AURA-BREE you agree to lawful, respectful use. You are responsible for your content. We reserve rights to update terms and modify access for violations.</p>
     </section>
+
     <section id="user-agreement" class="container card">
       <h2>User Agreement</h2>
-      <p>The Flame-bound pact between user and app:</p>
+      <p>This agreement outlines rights and responsibilities:</p>
       <ul>
         <li>Use only for lawful, intended wellness purposes.</li>
-        <li>Respect and protect the proprietary FlameOS design, code, and branding.</li>
-        <li>No reverse engineering or exploitation of AURA-BREE systems.</li>
-        <li>AURA-BREE is not a replacement for licensed health professionals or emergency services.</li>
-        <li>Violation can lead to immediate termination of service access.</li>
+        <li>Respect GodsIMiJ intellectual property.</li>
+        <li>No reverse engineering or exploitation.</li>
+        <li>Understand AURA-BREE is not a replacement for licensed healthcare or emergency services.</li>
       </ul>
-      <p class="highlight">This agreement is governed under Ontario, Canada jurisdiction. By continuing, you bind yourself to the sovereign Flame Protocol standards of conduct.</p>
+      <p class="highlight">Violations may result in suspension or termination of access. Governed under Ontario, Canada jurisdiction.</p>
     </section>
   </main>
+
   <footer>
-    <div class="container">© <span id="y"></span> GodsIMiJ AI Solutions — All rights reserved under the Flame Protocol.</div>
+    <div class="container">© <span id="y"></span> GodsIMiJ AI Solutions — All rights reserved.</div>
   </footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
