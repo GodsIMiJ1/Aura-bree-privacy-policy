@@ -7,78 +7,87 @@
   <meta name="description" content="AURA-BREE - therapeutic AI companion. Privacy Policy, Terms of Service, and User Agreement." />
   <meta name="robots" content="index,follow" />
   <style>
-    :root {
-      --bg: #0b0d10;
-      --card: #12151b;
-      --ink: #e6e7eb;
-      --muted: #aab0b9;
-      --accent: #ff6a00;
-      --accent2: #ff934d;
-      --glow: 0 0 15px rgba(255,106,0,0.4);
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: radial-gradient(circle at top right, rgba(255,106,0,0.15), transparent), var(--bg); color: var(--ink); line-height: 1.6; }
-    a { color: var(--accent2); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header { position: sticky; top: 0; z-index: 100; background: rgba(11,13,16,0.95); border-bottom: 2px solid var(--accent); box-shadow: var(--glow); backdrop-filter: blur(8px); }
-    .container { max-width: 1000px; margin: auto; padding: 20px; }
-    .nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
-    .brand { display: flex; align-items: center; gap: 10px; font-weight: bold; color: var(--accent2); font-size: 1.2rem; }
-    nav a { margin-left: 15px; color: var(--muted); font-weight: 600; padding: 6px 10px; border-radius: 8px; transition: all 0.3s ease; }
-    nav a:hover { background: rgba(255,106,0,0.15); color: var(--ink); box-shadow: var(--glow); }
-    section { padding: 24px; }
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 20px; box-shadow: 0 0 20px rgba(255,106,0,0.1); margin-bottom: 20px; }
+    :root { --bg: #0b0d10; --card: #12151b; --ink: #e6e7eb; --muted: #aab0b9; --accent: #ff6a00; --accent2: #ff934d; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    header, footer { background: #0a0c0e; border-bottom: 2px solid var(--accent); padding: 20px; }
+    .container { max-width: 960px; margin: auto; padding: 24px; }
     h1, h2, h3 { color: var(--accent2); }
-    h2 { border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px; }
-    .highlight { background: rgba(255,106,0,0.1); padding: 10px; border-left: 4px solid var(--accent); border-radius: 8px; }
-    footer { padding: 20px; border-top: 2px solid var(--accent); text-align: center; color: var(--muted); background: #0a0c0e; }
+    .card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    .highlight { background: rgba(255,106,0,0.1); padding: 10px; border-left: 4px solid var(--accent); border-radius: 6px; margin: 12px 0; }
   </style>
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <div class="brand">AURA-BREE</div>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#privacy-policy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
-        <a href="#user-agreement">User Agreement</a>
-      </nav>
-    </div>
-  </header>
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About AURA-BREE</h2>
-      <p>A therapeutic AI companion for mood tracking, emotional reflection, and guided calm. Safe, private, and empowering.</p>
-    </section>
-    <section id="features" class="card">
-      <h2>Features</h2>
-      <ul>
-        <li>Mood tracking and insights</li>
-        <li>Private AI chat support</li>
-        <li>Tarot, horoscope, dream interpretation</li>
-        <li>Emergency grounding tools</li>
-      </ul>
-    </section>
-    <section id="privacy-policy" class="card">
-      <h2>Privacy Policy</h2>
-      <p>We respect your privacy. Data is never sold or shared without consent. Review our full policy for details on collection, storage, and usage.</p>
-    </section>
-    <section id="terms" class="card">
-      <h2>Terms of Service</h2>
-      <p>By using AURA-BREE, you agree to abide by all applicable laws, respect intellectual property, and avoid misuse. Full terms apply.</p>
-    </section>
-    <section id="user-agreement" class="card">
-      <h2>User Agreement</h2>
-      <ul>
-        <li>Use for intended wellness purposes only.</li>
-        <li>Respect platform guidelines and content rules.</li>
-        <li>No reverse engineering or exploitation.</li>
-      </ul>
-    </section>
-  </main>
-  <footer>© <span id="year"></span> GodsIMiJ AI Solutions — All Rights Reserved.</footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<header>
+  <div class="container">
+    <h1>AURA-BREE Legal Hub</h1>
+    <nav>
+      <a href="#privacy-policy">Privacy Policy</a> | 
+      <a href="#terms">Terms of Service</a> | 
+      <a href="#user-agreement">User Agreement</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <section id="privacy-policy" class="card">
+    <h2>Privacy Policy</h2>
+    <p>We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use AURA-BREE.</p>
+    <h3>1. Information We Collect</h3>
+    <ul>
+      <li>Personal Information: name, email address, account details (if provided).</li>
+      <li>Usage Data: interaction logs, feature use, device type, browser, and session data.</li>
+      <li>Content Data: any messages, mood entries, or other user-provided content.</li>
+    </ul>
+    <h3>2. Use of Information</h3>
+    <p>We use collected data to operate and improve the service, personalize user experience, and ensure platform security. Data may also be used for compliance with legal obligations.</p>
+    <h3>3. Data Retention</h3>
+    <p>We retain personal data only as long as necessary for the purposes outlined in this policy or as required by law. You may request deletion at any time.</p>
+    <h3>4. Data Security</h3>
+    <p>We implement industry-standard encryption and access controls. However, no method of transmission or storage is 100% secure.</p>
+    <h3>5. User Rights</h3>
+    <p>Under applicable laws (including GDPR, CCPA), you may request access, correction, deletion, or restriction of your data. Contact us at: privacy@godsimij-ai-solutions.com</p>
+    <h3>6. Third-Party Services</h3>
+    <p>We do not sell personal data. Trusted service providers may process limited data strictly for operational purposes.</p>
+  </section>
+  <section id="terms" class="card">
+    <h2>Terms of Service</h2>
+    <h3>1. Acceptance of Terms</h3>
+    <p>By using AURA-BREE, you agree to these Terms of Service. If you do not agree, discontinue use.</p>
+    <h3>2. License Grant</h3>
+    <p>We grant you a non-exclusive, non-transferable, revocable license to use AURA-BREE for personal, non-commercial purposes.</p>
+    <h3>3. Prohibited Uses</h3>
+    <ul>
+      <li>Engaging in unlawful activity.</li>
+      <li>Attempting to reverse engineer or disrupt the service.</li>
+      <li>Exploiting the service for commercial gain without authorization.</li>
+    </ul>
+    <h3>4. Intellectual Property</h3>
+    <p>All content, trademarks, and code remain the property of GodsIMiJ AI Solutions.</p>
+    <h3>5. Disclaimers</h3>
+    <p>AURA-BREE is provided "as is" without warranties of any kind. It is not a medical device and does not provide professional advice.</p>
+    <h3>6. Limitation of Liability</h3>
+    <p>To the fullest extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from use of the service.</p>
+    <h3>7. Governing Law</h3>
+    <p>These terms are governed by the laws of Ontario, Canada. Disputes shall be resolved in the courts of Ontario.</p>
+  </section>
+  <section id="user-agreement" class="card">
+    <h2>User Agreement</h2>
+    <p>This agreement sets out your responsibilities and rights as a user of AURA-BREE.</p>
+    <h3>1. Responsible Use</h3>
+    <ul>
+      <li>Use the platform only for wellness and self-reflection purposes.</li>
+      <li>Do not share harmful, illegal, or abusive content.</li>
+      <li>Respect the intellectual property and privacy of others.</li>
+    </ul>
+    <h3>2. AI Limitations</h3>
+    <p>AURA-BREE provides AI-generated suggestions which are not a substitute for professional care. In emergencies, contact local crisis services or emergency responders.</p>
+    <h3>3. Termination</h3>
+    <p>We reserve the right to suspend or terminate your account for violations of this agreement.</p>
+    <div class="highlight">If you are experiencing a crisis, contact emergency services or call a local helpline immediately.</div>
+  </section>
+</main>
+<footer>
+  <div class="container">© <span id="y"></span> GodsIMiJ AI Solutions — All rights reserved.</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
